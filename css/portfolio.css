@@ -10,13 +10,18 @@ body {
   font-family: var(--main-font);
 }
 
-/* common */
+/*++++++++++ Common ++++++++++*/
+
 ul {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+.logo > span {
+  color: var(--accent-color);
 }
 
 .visually-hidden {
@@ -33,7 +38,8 @@ a {
   overflow: hidden;
 }
 
-/*++++++++++ Header ++++++++++  */
+
+/*++++++++++ Header ++++++++++*/
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -41,10 +47,6 @@ a {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
-}
-
-.logo > span {
-  color: var(--accent-color);
 }
 
 .site-nav-link {
@@ -69,3 +71,71 @@ a {
   letter-spacing: 0.02em;
   color: var(--main-font);
 }
+
+.site-nav .site-nav-link.current {
+  color: var(--accent-color);
+}
+
+
+
+/*++++++++++ Portfolio ++++++++++*/
+
+.radio-button {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+background-color: #F5F4FA;
+
+} 
+
+.radio-button:hover, 
+.radio-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.porfolio-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--secondary-color);
+}
+
+.porfolio-text {
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--main-color);
+}
+
+
+/*++++++++++ Footer ++++++++++*/
+
+footer .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.footer-adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.footer-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.174;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
+

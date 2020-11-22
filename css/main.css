@@ -10,13 +10,18 @@ body {
   font-family: var(--main-font);
 }
 
-/* common */
+/*++++++++++ Common ++++++++++  */
+
 ul {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+.logo > span {
+  color: var(--accent-color);
 }
 
 .visually-hidden {
@@ -33,6 +38,15 @@ a {
   overflow: hidden;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
 /*++++++++++ Header ++++++++++  */
 .logo {
   font-family: Raleway;
@@ -41,10 +55,6 @@ a {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: #000000;
-}
-
-.logo > span {
-  color: var(--accent-color);
 }
 
 .site-nav-link {
@@ -69,3 +79,96 @@ a {
   letter-spacing: 0.02em;
   color: var(--main-font);
 }
+
+.site-nav .site-nav-link.current {
+  color: var(--accent-color);
+}
+
+/*++++++++++ Hero ++++++++++  */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.modal-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/*++++++++++ Advantages ++++++++++  */
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+/*++++++++++ Our team ++++++++++  */
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+/*++++++++++ Footer ++++++++++  */
+
+footer .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.footer-adress {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+
+.footer-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.174;
+  letter-spacing: 0.03em;
+  /* color: rgba(255, 255, 255, 0.6); */
+
